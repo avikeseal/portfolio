@@ -321,4 +321,10 @@ a:hover {
         flex-direction: row;
 
     }
+
+    .burgermenu {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+    }
 }
