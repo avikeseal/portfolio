@@ -196,6 +196,7 @@ header {
 }
 
 #menu a {
+    display: flex;
     position: relative;
     transition: all 0.5s;
     text-decoration: none;
@@ -319,16 +320,34 @@ a:hover {
         border: 1px solid red;
         display: flex;
         flex-direction: row;
+        margin: auto;
 
     }
 
     .burgermenu {
-	position: fixed;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid green;
+    }
+
+    nav ul li {
+        float: left;
+
+    }
+
+    nav ul li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
 }
